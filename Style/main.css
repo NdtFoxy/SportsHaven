@@ -163,13 +163,28 @@ ul{
 }
 .gtext1 {
     font-size: 128px;
-    background: linear-gradient(39deg, #0080EF 0%, #00D1D8 100%);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    background-image: linear-gradient(90deg,#0080ef,#00d1d8);
+    animation: text 8s infinite;
 }
+@keyframes text {
+    0%, 100% {
+        opacity: 1;
+    }
+    33.333%, 50% {
+        opacity: 0;
+    }
+    16.667%, 66.667% {
+        opacity: 1;
+    }
+}
+
+
 .gtext2 {
-    background: linear-gradient(270deg, #EBFF00 0%, #FF6B00 0.01%, #FFE500 100%);
+    background: white;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -184,6 +199,7 @@ ul{
     text-align: center;
     line-height: normal;
 }
+.
 
 .txt{
     margin-top: 4vh;
