@@ -11,7 +11,6 @@ body{
 
 .header{
     height: 200vh;
-    background: linear-gradient(181deg, rgba(0, 0, 0, 0.00) 1.08%, rgba(0, 0, 0, 0.00) 28.67%, #0B0B0B 99.81%), url(/Img/Background.png), lightgray -11.081px -189.364px / 101.539% 129.54% no-repeat;
     background-size: cover;
 }
 
