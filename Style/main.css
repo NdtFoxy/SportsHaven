@@ -13,6 +13,7 @@ body{
     height: 200vh;
     background-size: cover;
     background-color: black;
+    
 }
 
 .nav{
@@ -160,6 +161,7 @@ ul{
 .gtext {
     display: flex;
     justify-content: center;
+    margin-top: 10vh;
 }
 .gtext1 {
     font-size: 128px;
@@ -198,19 +200,19 @@ ul{
         color: transparent;
     }
 }
-
-
+.fglobal{
+    margin: 0;
+}
+.txtcont{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
 .gsmalltext {
-    font-size: 30px;
-    font-weight: 700;
     text-align: center;
-    line-height: normal;
+    max-width: 1000px;
+    margin: 0;
+    color: #9C9C9C;
+    font-size: 20px;
 }
-.
 
-.txt{
-    margin-top: 4vh;
-    font-size: 30px;
-    width: 800px;
-    line-height: 0.7vh;
-}
